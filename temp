@@ -1,0 +1,30 @@
+.app-container {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+}
+
+.chatbot-container {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+}
+
+.launcher {
+  background: none;
+  border: none;
+  cursor: pointer;
+  padding: 0;
+}
+
+.launcher img {
+  width: 50px;
+  height: 50px;
+}
+
+.chatbot {
+  position: absolute;
+  bottom: 60px;
+  right: 0;
+  width: 350px;
+}
