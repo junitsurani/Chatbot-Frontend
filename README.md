@@ -24,7 +24,7 @@ Ensure you have the following installed:
 1. **Clone the repository:**
 
    ```bash
-   git clone [https://github.com/your-username/react-chatbot-ui.git](https://github.com/junitsurani/Chatbot-Frontend.git)
+   git clone https://github.com/junitsurani/Chatbot-Frontend.git
    cd react-chatbot-ui
    ```
    
