@@ -22,7 +22,7 @@
 
 import axios from 'axios';
 
-const API_URL = 'http://localhost:8000/api';  // Update with your API base URL
+const API_URL = 'http://localhost:8000/api';  
 
 export const createInteraction = async (data) => {
     try {
@@ -53,10 +53,8 @@ export const updateChatbotSettings = async (data) => {
     for (const key in data) {
       if (data[key]) {
         if (data[key] instanceof File) {
-          // Append files to FormData
           formData.append(key, data[key]);
         } else {
-          // Append other data to FormData
           formData.append(key, data[key]);
         }
       }

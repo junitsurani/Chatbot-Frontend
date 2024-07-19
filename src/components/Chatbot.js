@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import { createInteraction, getInteractions } from '../services/api';
-import '../styles/Chatbot.css'; // Ensure you have this CSS file
+import '../styles/Chatbot.css'; 
 
 const Chatbot = ({ settings }) => {
 
